@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF Pro Display"; /*Can be any text*/
+  src: local("ProductSansInfanity"),
+    url("../../assets/fonts/ProductSansInfanity.ttf") format("truetype");
+}
+
+html,
+body {
+  margin: unset;
+  padding: unset;
+  font-size: 15px;
+  font-family: "SF Pro Display";
+
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
